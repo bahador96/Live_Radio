@@ -5,7 +5,7 @@ import 'package:provider/provider.dart';
 
 void main() {
   runApp(
-    ChangeNotifierProvider(create: (_) => RadioPlayerService(), child: MyApp()),
+    ChangeNotifierProvider(create: (_) => RadioProvider(), child: MyApp()),
   );
 }
 
